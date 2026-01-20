@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Здесь будут зависимости SDK Hytale, когда они появятся
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'com.example.fiberleather.FiberLeatherMod'
+        )
+    }
+}
