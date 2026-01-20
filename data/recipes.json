@@ -1,0 +1,29 @@
+[
+  {
+    "id": "craft_light_leather_from_fiber",
+    "output": "item.leather_light",
+    "count": 1,
+    "ingredients": [
+      {"id": "item.fiber", "count": 5}
+    ],
+    "station": "crafting_table"
+  },
+  {
+    "id": "craft_medium_leather_from_fiber",
+    "output": "item.leather_medium",
+    "count": 1,
+    "ingredients": [
+      {"id": "item.fiber", "count": 8}
+    ],
+    "station": "crafting_table"
+  },
+  {
+    "id": "craft_heavy_leather_from_fiber",
+    "output": "item.leather_heavy",
+    "count": 1,
+    "ingredients": [
+      {"id": "item.fiber", "count": 12}
+    ],
+    "station": "crafting_table"
+  }
+]
